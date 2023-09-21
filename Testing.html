@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original</title>
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.Outer_1 {
+    height: 100vh;
+    background: linear-gradient(2435.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+}
+
+.Outer_2 {
+    height: 35rem;
+    background: linear-gradient(2435.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-sizing: border-box;
+    border-radius: 7px 100px;
+    position: absolute;
+   width: 95vw;
+   /* margin: 2rem 2rem 0rem 2rem; */
+   margin-bottom: 0px;
+}
+.slide{
+animation-name: slid ;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+/* @keyframes slid {
+    0% {
+        margin-top: -37rem;
+        margin-left: 95vw;
+    }
+    50% {
+        margin-left: -23px;
+    }
+    80% {
+        margin-left: 4.3rem;
+    }
+   
+    100%{
+        width: 95vw;
+        height: 85vh;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+} */
+
+@keyframes slid {
+
+}
+
+</style>   
+<body>
+    <div class="Outer_1">
+        <div class="Outer_2 pe-2">
+           d
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+           var outer2 = document.querySelector(".Outer_2");
+           outer2.classList.add("slide");
+       });
+   </script>
+   
+</body>
+
+</html>
